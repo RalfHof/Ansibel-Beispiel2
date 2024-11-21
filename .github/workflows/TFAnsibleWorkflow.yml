@@ -29,7 +29,9 @@ jobs:
 
       - name: Terraform Apply
         working-directory: ./terraform
-        run: terraform apply -auto-approve
+        run: |
+           cd terraform
+           terraform apply -auto-approve
 
       - name: Ansible installieren
         run: sudo apt-get install -y ansible

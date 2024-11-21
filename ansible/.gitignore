@@ -1,0 +1,23 @@
+# Allgemeine Konfigurationsdateien
+.terraform/
+ansible.cfg
+
+# Zustandsspeicher von Terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+# Lokale Entwicklungsumgebungen
+.vscode/
+.idea/
+
+# Log-Dateien und temporäre Dateien
+*.log
+*.swp
+
+# Cache-Dateien
+.cache/
+
+# Plattform-spezifische Dateien
+# (Passe diese an deine Umgebung an)
+.DS_Store
+Thumbs.db
